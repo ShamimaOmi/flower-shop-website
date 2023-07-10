@@ -1,0 +1,90 @@
+/* common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 1920px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner .flower-pic {
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+    margin-right: 240px;
+
+
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.banner-content{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 200;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+
+}
+
+
+/* footer section  */
+footer{
+    background-color: #111010;
+    width: 1920px;
+    height: 440px;
+    text-align: center;
+    
+    
+}
+.footer-content{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 125px;
+
+}
+.text-color{
+    color: #E55473;
+     font-size: 48px;
+    font-weight: 700;
+
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+
+font-size: 13px;
+
+font-weight: 300;
+padding-top: 10px;
+padding-bottom: 32px;
+
+}
+.footer-end{
+    color: rgba(255, 255, 255, 0.40);
+
+
+font-size: 9px;
+
+font-weight: 200;
+
+}
