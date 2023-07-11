@@ -282,16 +282,51 @@ font-weight: 400;
     margin-left: 15px;
    
 }
-
+.contact-us{
+    background-color:azure;
+    height: 500px;
+    border-radius: 100px;
+    
+    justify-content:space-around;
+    margin-right: 150px;
+    margin-left: 150px;
+   
+}
+.contact-us .hot-deal-heading{
+    text-align: center;
+}
+ #contact-details{
+   
+    margin-left: 100px;
+}
+.contact-description{
+    width: 500px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+.contact-btn{
+    margin-bottom: 10px;
+    margin-left: 500px;
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
 
 
 
 
 
 /* footer section  */
-/* footer {
+footer {
     background-color: #111010;
-    width: 1850px;
+    
     height: 440px;
  
     
@@ -300,7 +335,7 @@ font-weight: 400;
 }
 .footer-info{
     text-align: center;
-    margin-right: 350px;
+   
 }
 
 .footer-content {
@@ -338,4 +373,4 @@ font-weight: 400;
 
     font-weight: 200;
 
-} */
+} 
