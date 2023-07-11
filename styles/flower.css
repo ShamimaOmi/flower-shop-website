@@ -5,22 +5,42 @@ body {
 }
 
 header {
-    width: 1920px;
+    
     background-color: rgba(229, 84, 115, 0.10);
+    height: 650px;
+}
+.heading{
+    color: #272727;
+
+font-size: 60px;
+
+font-weight: 800;
+
 }
 
 
 .banner {
     display: flex;
+    gap: 90px;
     align-items: center;
     justify-content: space-around;
+    margin-left: 100px;
+    padding: 30px 30px 30px 150px;
+    
+    
+    
 }
 
-.banner .flower-pic {
-    width: 635px;
-    height: 800px;
-    margin-top: 50px;
-    margin-right: 240px;
+
+
+ .flower-pic {
+    width: 450px;
+    height: 620px;
+    margin-right: 100px;
+   
+    
+   
+    
 
 
 }
@@ -34,57 +54,206 @@ header {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-
-}
-.banner-content{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 12px;
-    font-weight: 200;
-    padding-top: 15px;
-    padding-bottom: 15px;
     
 
 }
+
+ .banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 15x;
+    padding-bottom: 15px;
+
+
+}
+
+
+
+/* Featured section */
+.feature {
+    text-align: center;
+}
+
+.figure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.figure-info1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 250px;
+height: 350px;
+  
+}
+.figure-info2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.figure-info3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+/* .figure .figure-details{
+    width: 150px;
+    height: 300px;
+} */
+
+
+/* hot deals section */
+/* .deals {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1800px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+ .deals .deals-title{
+    padding-left:200px px;
+    padding-top: 100px;
+} 
+.deals-content{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+
+}
+.deals .flower-pic{
+    padding-right:350px ;
+    width: 200px;
+    height: 250px;
+    padding-top: 100px;
+} */
+
+
+/* instagram section */
+/* .instagram {
+    padding: 90px;
+    border-radius: 10px;
+    background: rgb(248, 244, 248);
+    
+    text-align: center;
+
+
+}
+
+.instagram-info {
+    display: flex;
+    
+    height: 300px;
+    padding-top: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+
+}
+
+.instagram-info1 {
+    height: 250px;
+}
+#instagram-section1{
+    padding-left: 50px;
+}
+#instagram-section4{
+    padding-right: 150px;
+}
+#instagram-section2 , #instagram-section3 , #instagram-section4{
+    padding-left: 15px;
+}
+.latest{
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.latest-content{
+    padding-bottom: 20px;
+    color: rgba(39, 39, 39, 0.60);
+
+font-size: 12px;
+
+font-weight: 300;
+
+}
+.input{
+    border-radius: 8px;
+background: #FFF;
+height: 62px;
+width: 500px;
+border: 0;
+
+}
+ */
+
+
+
 
 
 /* footer section  */
-footer{
+/* footer {
     background-color: #111010;
-    width: 1920px;
+    width: 1850px;
     height: 440px;
-    text-align: center;
+ 
     
-    
+
+
 }
-.footer-content{
+.footer-info{
+    text-align: center;
+    margin-right: 350px;
+}
+
+.footer-content {
     color: #FFF;
     font-size: 48px;
     font-weight: 700;
     padding-top: 125px;
 
+
 }
-.text-color{
+
+.text-color {
     color: #E55473;
-     font-size: 48px;
+    font-size: 48px;
     font-weight: 700;
 
 }
-.footer-description{
+
+.footer-description {
     color: rgba(255, 255, 255, 0.90);
 
-font-size: 13px;
+    font-size: 13px;
 
-font-weight: 300;
-padding-top: 10px;
-padding-bottom: 32px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 32px;
 
 }
-.footer-end{
+
+.footer-end {
     color: rgba(255, 255, 255, 0.40);
 
 
-font-size: 9px;
+    font-size: 9px;
 
-font-weight: 200;
+    font-weight: 200;
 
-}
+} */
