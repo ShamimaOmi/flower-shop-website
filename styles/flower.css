@@ -71,57 +71,18 @@ font-weight: 800;
 
 
 /* Featured section */
-.feature {
+.feature-title {
     text-align: center;
-}
-
-.figure {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-
-}
-
-.figure-info1 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    width: 250px;
-height: 350px;
-  
-}
-.figure-info2 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-}
-.figure-info3 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-}
-
-/* .figure .figure-details{
-    width: 150px;
-    height: 300px;
-} */
+    color: #272727;
 
 
-/* hot deals section */
-/* .deals {
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-    width: 1800px;
-    height: 400px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    
+font-size: 40px;
+
+font-weight: 800;
+padding-top: 100px;
 
 }
- .deals .deals-title{
-    padding-left:200px px;
-    padding-top: 100px;
-} 
-.deals-content{
+.feature-info{
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
 
@@ -130,77 +91,198 @@ font-size: 18px;
 font-weight: 400;
 
 }
-.deals .flower-pic{
-    padding-right:350px ;
-    width: 200px;
-    height: 250px;
-    padding-top: 100px;
+
+.feature-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+/* .feature-details {
+    border-radius: 300px 300px 0px 0px;
+    
+    width: 450px;
+height: 530px;
+  
 } */
 
 
-/* instagram section */
-/* .instagram {
-    padding: 90px;
-    border-radius: 10px;
-    background: rgb(248, 244, 248);
-    
+#figure-description1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 450px;
+height: 530px;
+padding-left: 20px;
+padding-right: 20px;
+}
+#figure-description2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 450px;
+height: 530px;
+}
+#figure-description3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 450px;
+height: 530px;
+}
+ .figure-info3{
+    width: 50px;
+height: 50px;
+}
+.feature-details{
+    padding-right: 25px;
+}
+.figcaption{
+    text-decoration: underline;
     text-align: center;
-
-
 }
 
-.instagram-info {
+
+
+
+
+/* hot deal section */
+
+ .hot-deal{
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+height: 600px;
+margin-top: 50px;
+ }
+ .hot-deal-container{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+  .deal-btn-primary{
+   margin-left: 250px;
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+ 
+.hot-deal-heading{
+    color: #272727;
+
+font-size: 40px;
+
+font-weight: 800;
+
+}
+.text-color{
+    color: #E55473;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+
+}
+.hot-deal-section2{
+    padding-top: 50px;
+}
+
+
+/* instagram section */
+.instagram-title{
+    color: #272727;
+text-align: center;
+
+font-size: 40px;
+
+font-weight: 800;
+
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+
+}
+.instagram-picture{
+    width: 340px;
+    height: 390px;
+    display: flex;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-top: 60px;
+}
+#instagram-div1{
+    padding-right: 24px;
+    padding-left: 120px;
     
-    height: 300px;
-    padding-top: 24px;
-    margin-left: 50px;
-    margin-right: 50px;
-    
-
-
 }
-
-.instagram-info1 {
-    height: 250px;
+#instagram-div2{
+    padding-right: 24px;
 }
-#instagram-section1{
-    padding-left: 50px;
+#instagram-div3{
+    padding-right: 24px;
 }
-#instagram-section4{
-    padding-right: 150px;
-}
-#instagram-section2 , #instagram-section3 , #instagram-section4{
-    padding-left: 15px;
-}
+#instagram-div4{
+    padding-right: 24px;
+   
+} 
 .latest{
     background-image: url('../images/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    
+    margin-left: 350px;
     height: 500px;
-    text-align: center;
-    padding-top: 100px;
-    margin-left: 120px;
-    margin-right: 120px;
+    
+    
+    
+    
+    
 }
-.latest-content{
-    padding-bottom: 20px;
-    color: rgba(39, 39, 39, 0.60);
-
-font-size: 12px;
-
-font-weight: 300;
+.latest .instagram-title{
+    padding-top: 50px;
+}
+.latest .instagram-description{
+    padding-bottom: 15px;
+}
+.form{
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 280px;
+    padding-right: 15px;
+    justify-content: center;
+    margin-right: 200px;
 
 }
-.input{
+#input{
+    width: 450px;
+    align-items: center;
+    
+    padding-right: 15px;
+}
+.form-btn-primary{
+    padding: 20px 43px;
+    gap: 10px;
     border-radius: 8px;
-background: #FFF;
-height: 62px;
-width: 500px;
-border: 0;
-
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+   
 }
- */
+
 
 
 
